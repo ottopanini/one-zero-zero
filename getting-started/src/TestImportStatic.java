@@ -3,8 +3,7 @@ Learn Programming Academy's Java 1Z0-815 Certification Exam Course
 Section 2: Testing Import static statements.
 */
 
-import static java.lang.Math.PI;
-import static java.lang.Math.sqrt;
+import static java.lang.Math.*;
 
 public class TestImportStatic {
     public static void main(String[] args) {
