@@ -5,9 +5,7 @@ Section 2: Testing import statements
 
 // A single-type-import declaration
 import garden.vegetable.*;
-
-// most specific import wins
-import nursery.vegetable.VineVegetable;
+import nursery.vegetable.*;
 
 public class TestImport {
     public static void main(String[] args) {
@@ -21,6 +19,12 @@ public class TestImport {
         // statement
         VineVegetable.main(args);
         garden.vegetable.VineVegetable.main(args);
+    }
+}
+
+class VineVegetable {
+    public static void main(String[] args) {
+        System.out.println("I'm a local VineVegetable");
     }
 }
 
