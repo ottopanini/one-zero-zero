@@ -8,7 +8,7 @@ import com.WordyCompanyName.ALongPackageName.AClassWithAVeryLongName;
 
 public class VarTest {
     public static void main(String[] args) {
-        AClassWithAVeryLongName aClassWithAVeryLongName = new AClassWithAVeryLongName();
+        var aClassWithAVeryLongName = new AClassWithAVeryLongName();
         aClassWithAVeryLongName.setName("Testing");
         System.out.println(aClassWithAVeryLongName);
     }
