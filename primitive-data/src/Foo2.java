@@ -58,5 +58,13 @@ public class Foo2 {
 
         int i4 = 0x007F; // hexidecimal 127 - hex prefix 0x
         System.out.println("i4 = " + i4);
+
+        byte b5 = 'a';
+        char c5 = 'a';
+        double d5 = 'a';
+
+        System.out.println("b5 = " + b5);
+        System.out.println("c5 = " + c5);
+        System.out.println("d5 = " + d5);
     }
 }
