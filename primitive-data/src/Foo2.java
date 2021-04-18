@@ -44,5 +44,10 @@ public class Foo2 {
         double d3 = 127D;
         System.out.println("d2 = " + d2);
         System.out.println("d3 = " + d3);
+
+        float f4 = 1.27e02f;
+        double d4 = 1.27e02;
+        System.out.println("f4 = " + f4);
+        System.out.println("d4 = " + d4);
     }
 }
