@@ -98,8 +98,12 @@ public class Person {
 
         // Add variable j
         int j = 0;
-        for (int i = 0; i < (decadeNumber + 1); i++, j++) {
-            //
+        for (int i = j = 0; i < (decadeNumber + 1); i++, j++) {
+            // local loop block variable named decade, scope is loop
+            String decade = "Decade " + (age / 10);
+            if (i == (decadeNumber)) {
+                decadeString = decade;
+            }
         }
 
         return decadeString;
