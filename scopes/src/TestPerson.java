@@ -15,15 +15,11 @@ public class TestPerson {
 
         // And now the noargs constructor, and using setters
         Person ann = new Person();
-
-        System.out.println(joe);
-        System.out.println(deb);
-        System.out.println("---- ANN BEFORE ----");
-        System.out.println(ann);
         ann.setAge("21");
         ann.setInstanceName("ANN");
 
-        System.out.println("---- ANN AFTER ----");
+        System.out.println(joe);
+        System.out.println(deb);
         System.out.println(ann);
     }
 }

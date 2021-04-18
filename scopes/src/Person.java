@@ -57,7 +57,7 @@ public class Person {
         // instance and class variable names have scope within all
         // non-static methods of the enclosing class, no qualifier
         // required.   Qualifiers do help readability though
-        return instanceName + " is " + age + " years old (PERSON.name=" + name + ")";
+        return instanceName + " is " + age + " years old (" + getAgeGroupClassification() + ")";
     }
 
     // This method tests local variable declaration in if/else blocks
