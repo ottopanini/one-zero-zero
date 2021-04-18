@@ -49,5 +49,14 @@ public class Foo2 {
         double d4 = 1.27e02;
         System.out.println("f4 = " + f4);
         System.out.println("d4 = " + d4);
+
+        byte b4 = 0b1111111;   // binary 127 prefix 0b
+        System.out.println("b4 = " + b4);
+
+        short s4 = 0177;  // octal 127 - octal prefix 0 only
+        System.out.println("s4 = " + s4);
+
+        int i4 = 0x007F; // hexidecimal 127 - hex prefix 0x
+        System.out.println("i4 = " + i4);
     }
 }
