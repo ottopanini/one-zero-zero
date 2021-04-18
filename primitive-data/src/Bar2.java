@@ -18,6 +18,14 @@ public class Bar2 {
         double mainDouble;
         boolean mainBoolean;
 
+        mainByte = 0;
+        mainChar = 'a';
+        mainShort = 1;
+        mainInt = 2;
+        mainLong = 3L;
+        mainFloat = 1.0f;
+        mainDouble = 2.0d;
+        mainBoolean = false;
 
         // Add the following statements which access and tries to print the uninitialized local variables
         System.out.println("----------  Are Local Variables set to default values?? --------------");
