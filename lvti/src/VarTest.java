@@ -4,10 +4,11 @@ Section 3: Working with Java Primitive Data Types and String APIs
 Topic: Local Variable Type Inference
 */
 
+import com.WordyCompanyName.ALongPackageName.AClassWithAVeryLongName;
+
 public class VarTest {
     public static void main(String[] args) {
-        com.WordyCompanyName.ALongPackageName.AClassWithAVeryLongName aClassWithAVeryLongName =
-                new com.WordyCompanyName.ALongPackageName.AClassWithAVeryLongName();
+        AClassWithAVeryLongName aClassWithAVeryLongName = new AClassWithAVeryLongName();
         aClassWithAVeryLongName.setName("Testing");
         System.out.println(aClassWithAVeryLongName);
     }
