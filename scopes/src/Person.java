@@ -59,4 +59,27 @@ public class Person {
         // required.   Qualifiers do help readability though
         return instanceName + " is " + age + " years old (PERSON.name=" + name + ")";
     }
+
+    // This method tests local variable declaration in if/else blocks
+    public String getAgeGroupClassification() {
+
+        // Declaring a local variable ageClassification, initializing to "GenY"
+        String ageClassification = "GenY";
+
+        // This local variable age 'shadows' the instance variable age
+        int age = Integer.parseInt(this.age);
+
+        if (age >= 95) {
+            ageClassification = "The Greatest Generation";
+        } else if (age >= 75) {
+            ageClassification = "The Silent Generation";
+        } else if (age >= 55) {
+            ageClassification = "Baby Boomer";
+        } else if (age >= 40) {
+            ageClassification = "GenX";
+        } else if (age >= 20) {
+            ageClassification = "Millenial";
+        }
+        return ageClassification;
+    }
 }
