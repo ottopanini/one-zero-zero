@@ -62,9 +62,13 @@ public class Foo2 {
         byte b5 = 'a';
         char c5 = 'a';
         double d5 = 'a';
-
         System.out.println("b5 = " + b5);
         System.out.println("c5 = " + c5);
         System.out.println("d5 = " + d5);
+
+        byte b6 = '\u007f';
+        char c6 = '\u007f';
+        System.out.println("b6 = " + b6);
+        System.out.println("c6 = " + c6);
     }
 }
