@@ -79,6 +79,12 @@ public class Person {
             ageClassification = "GenX";
         } else if (age >= 20) {
             ageClassification = "Millenial";
+            String ageType = "";
+            if (age >= 21) {
+                ageType = "Voting ";
+            }
+            ageClassification = ageType + ageClassification;
+
         }
         return ageClassification;
     }
