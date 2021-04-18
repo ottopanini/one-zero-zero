@@ -57,7 +57,7 @@ public class Person {
         // instance and class variable names have scope within all
         // non-static methods of the enclosing class, no qualifier
         // required.   Qualifiers do help readability though
-        return instanceName + " is " + age + " years old (" + getAgeGroupClassification() + ")";
+        return instanceName + " is " + age + " years old (" + getAgeGroupClassification() + ", " + getDecade(Integer.parseInt(this.age)) + ")";
     }
 
     // This method tests local variable declaration in if/else blocks
@@ -105,6 +105,11 @@ public class Person {
                 decadeString = decade;
             }
         }
+        int modyear = age % 10;
+        for (j = 0; j < modyear; j++) {     // VALID, not re-declaring j
+            //i++;    // INVALID, no longer in scope
+        }
+        decadeString += ", Year " + modyear;
 
         return decadeString;
 
