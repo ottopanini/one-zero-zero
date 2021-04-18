@@ -92,6 +92,16 @@ public class Person {
     public String getDecade(int age) {
         String decadeString = "";
        //int age = Integer.parseInt(this.age) / 10; // error -> redefined
+
+        // This variable holds the maximum decade
+        int decadeNumber = age / 10;
+
+        // Add variable j
+        int j = 0;
+        for (int i = 0; i < (decadeNumber + 1); i++, j++) {
+            //
+        }
+
         return decadeString;
 
     }
