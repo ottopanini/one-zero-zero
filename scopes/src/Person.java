@@ -88,4 +88,11 @@ public class Person {
         }
         return ageClassification;
     }
+
+    public String getDecade(int age) {
+        String decadeString = "";
+       //int age = Integer.parseInt(this.age) / 10; // error -> redefined
+        return decadeString;
+
+    }
 }
