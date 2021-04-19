@@ -30,6 +30,17 @@ public class StringConcat {
         // fourthString will be "hello Our Simple Class"
         String fourthString = helloString + " " + ourObject;
         System.out.println("fourthString = " + fourthString);
+
+        int j = 10;
+        String resultString = i + j + " = " + i + j;
+        System.out.println("resultString is: " + resultString);
+
+        String resultStringCorrectedForIntegerMath = i + j + " = " + (i + j);
+        String resultStringCorrectedForStringConcat = "" + i + j + " = " + i + j;
+        System.out.println("resultStringCorrectedForIntegerMath is: " +
+                resultStringCorrectedForIntegerMath);
+        System.out.println("resultStringCorrectedForStringConcat is: " +
+                resultStringCorrectedForStringConcat);
     }
 }
 
