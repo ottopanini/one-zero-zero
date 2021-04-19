@@ -18,5 +18,10 @@ public class StringConcat {
 // secondString will be “null hello"
         String secondString = nullObject + " " + helloString;
         System.out.println("secondString = " + secondString);
+
+        int i = 10;
+// thirdString will be “10 hello"
+        String thirdString = i + " " + helloString;
+        System.out.println("thirdString = " + thirdString);
     }
 }
