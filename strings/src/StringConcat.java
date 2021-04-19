@@ -13,5 +13,10 @@ public class StringConcat {
         // firstString will be “hello world”, concats 3 literals..
         String firstString = helloString + " " + worldString;
         System.out.println("firstString = " + firstString);
+
+        Object nullObject = null;
+// secondString will be “null hello"
+        String secondString = nullObject + " " + helloString;
+        System.out.println("secondString = " + secondString);
     }
 }
